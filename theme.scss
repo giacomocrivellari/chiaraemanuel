@@ -70,7 +70,10 @@ html,body {
 
 }$body-bg: #FFFFFF;
 
-
-
 $display-font-family: Lobster;
 @import 'bootstrap-4.0.0-alpha.6';
+
+.pattern {
+  background-image:url(assets/pattern.png);
+  background-size: auto;
+}
