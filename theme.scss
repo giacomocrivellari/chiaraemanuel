@@ -11,7 +11,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             #002FA7;
+$brand-primary:             #6495ED;
+
 
 
 
@@ -25,7 +26,8 @@ $brand-info:                #2A52BE;
 
 $brand-warning:             #0047AB;
 
-$brand-danger:              #1C39BB;
+$brand-danger:              #6495ED;
+
 
 
 $brand-inverse:             #000080;
@@ -49,7 +51,8 @@ $enable-print-styles:       true !default;
 // Theme settings.
 
 
-$body-color: #454545;
+$body-color: #000080;
+
 $body-color-inverse: invert($body-color) !default;
 $link-color: #00b0eb;
 
@@ -78,6 +81,8 @@ html,body {
   scroll-behavior: smooth;
 
 }$body-bg: #FFFFFF;
+
+
 
 $display-font-family: Lobster;
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
