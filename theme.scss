@@ -11,16 +11,33 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             #7A0C22;
+$brand-primary:             #044D63;
 
 
-$brand-success:             #5cb85c;
-$brand-info:                #E8C3BF;
 
 
-$brand-warning:             #f0ad4e;
-$brand-danger:              #d9534f;
-$brand-inverse:             #292b2c;
+
+
+
+
+$brand-success:             #120A8F;
+
+$brand-info:                #6495ED;
+
+
+
+
+
+$brand-warning:             #0047AB;
+
+$brand-danger:              #F0F8FF;
+
+
+
+
+
+$brand-inverse:             #000080;
+
  
 
 // Options
@@ -40,7 +57,8 @@ $enable-print-styles:       true !default;
 // Theme settings.
 
 
-$body-color: #454545;
+$body-color: #000080;
+
 $body-color-inverse: invert($body-color) !default;
 $link-color: #00b0eb;
 
@@ -70,6 +88,8 @@ html,body {
 
 }$body-bg: #FFFFFF;
 
+
+
 $display-font-family: Lobster;
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
 @import 'bootstrap-4.0.0-alpha.6';
@@ -77,4 +97,10 @@ $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
 .pattern {
   background-image:url(assets/pattern.png);
   background-size: auto;
+}
+
+.background {
+  background-image:url(assets/cover.jpg);
+  background-size: cover;
+  background-position: center;
 }

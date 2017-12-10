@@ -27,54 +27,27 @@
       </div>
     </div>
   </nav>
-  <div class="d-flex align-items-center py-5" style="background-image: url(&quot;assets/cover.jpg&quot;);">
+  <div class="d-flex align-items-center background">
     <div class="container py-5 my-5">
-      <div class="row py-5 my-5">
-        <div class="col-lg-12">
-          <h1 class="text-primary display-3">Chiara &amp; Manu</h1>
-          <h3 class="">9 Dicembre 2017</h3>
-        </div>
-      </div>
+      <div class="row py-5 my-5"> </div>
+      <div class="row py-5 my-5"> </div>
     </div>
   </div>
-  <div class="py-3 section bg-info" id="countdown">
+  <div class="py-3 section text-danger bg-primary" id="countdown">
     <div class="container">
       <div class="row">
-        <div class="align-self-center col-md-5">
-          <h3 class="">Manca tanto così...</h3>
+        <div class="col-md-12">
+          <p class="lead">&nbsp;</p>
         </div>
-        <div class="col-md-7">
-          <!-- Display the countdown timer in an element -->
-          <h1 id="demo" class="text-gray-dark"></h1>
-          <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("Dec 9, 2017 11:00:00").getTime();
-            
-            // Update the count down every 1 second
-            var x = setInterval(function() {
-            
-              // Get todays date and time
-              var now = new Date().getTime();
-            
-              // Find the distance between now an the count down date
-              var distance = countDownDate - now;
-            
-              // Time calculations for days, hours, minutes and seconds
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-              // Display the result in the element with id="demo"
-              document.getElementById("demo").innerHTML = days + " g " + hours + " h " + minutes + " m " + seconds + " s ";
-            
-              // If the count down is finished, write some text 
-              if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-              }
-            }, 1000);
-          </script>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="" contenteditable="true">PEM PEM!</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">&nbsp;</p>
         </div>
       </div>
     </div>
@@ -87,7 +60,7 @@
             <img class="img-fluid d-block" src="assets/cerimonia.jpg">
             <div class="card-block text-center">
               <h2 class="text-primary mb-3">La cerimonia</h2>
-              <p class="lead">ore 11:00</p>
+              <p class="lead mb-2">ore 11:00</p>
               <p class="">Chiesa di S. Antonino
                 <br>via Madre Laura - Sulbiate</p>
               <a class="btn btn-primary my-3" href="https://goo.gl/maps/JS4Wwrss8By" target="blank" title="Apri google maps">Vai a Google Maps</a>
@@ -99,7 +72,7 @@
             <img class="img-fluid d-block" src="assets/pranzo.jpg">
             <div class="card-block text-center">
               <h2 class="text-primary mb-3">Il pranzo</h2>
-              <p class="lead">&nbsp;</p>
+              <p class="lead mb-2 text-white">ore</p>
               <p class="">Oratorio di Rogoredo
                 <br>via S. Gaetano 60 - Rogoredo</p>
               <a class="btn btn-primary my-3" href="https://goo.gl/maps/1N7RTXEFMBR2" target="blank" title="Apri google maops">Vai a Google Maps</a>
@@ -112,10 +85,10 @@
   <div class="py-5 section text-center pattern" id="foto">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 bg-faded p-3">
+        <div class="col-md-12 bg-faded bg-danger p-3">
           <h1 class="text-primary mb-3">Foto e video</h1>
           <p>Vogliamo collezionare tutti i ricordi di questa giornata anche grazie a te.
-            <br>Segui le indicazione a&nbsp;
+            <br>Segui le indicazioni a&nbsp;
             <a href="http://chiaraemanuel.it/photo">questo link</a>&nbsp;per caricare le foto che hai scattato quel giorno.</p>
           <!--<a href="https://fb.me/CHIARAEMANUEL--1FeDZiYWECmISZL">questo link</a>.</p> -->
         </div>
@@ -125,12 +98,12 @@
   <div class="py-5 section text-center pattern" id="lista">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 mx-auto bg-faded p-3">
+        <div class="col-md-12 mx-auto bg-faded p-3 bg-danger" style="">
           <h1 class="text-primary mb-3">Lista nozze</h1>
           <p>Abbiamo già tutto quello che serve per essere felici.
             <br>Abbiamo tanti progetti di vita che vogliamo portare avanti nel futuro.
             <br>Se vuoi darci una mano puoi lasciare un regalo al recapito che trovi qui sotto.</p>
-          <p class="lead">IT64N0558489190000000002561</p>
+          <p class="lead">Chiara Stucchi&nbsp; &nbsp; IT64N0558489190000000002561</p>
         </div>
       </div>
     </div>
